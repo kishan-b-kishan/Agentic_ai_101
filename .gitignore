@@ -1,0 +1,3 @@
+agents_bin/
+__pycache__/
+.env

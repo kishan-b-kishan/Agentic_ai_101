@@ -1,0 +1,37 @@
+first one used to work in september
+GEMINI_API =AIzaSyCQ2H02z_qkXA0-pY9VsNXDK8eo2wCUBfw
+second one (failed)
+GOOGLE_API_KEY=AIzaSyACqTzC8sSyUJvScLP24C15d92S7Hk2Nxo
+Harsho key 1
+gen-lang-client-0341578836
+harsho key 2
+AIzaSyBCvzd1qpQgrpu-g7hiORIFog0n54USyv0
+Derric's paid api key
+AIzaSyCrXV6bIKKsVAism8_3UkRohNJ6shIy2DQ
+
+----Olamma activation and deactivation----
+ollama run mistral
+/bye
+ollama stop mistral
+to check if stopped -
+ollama ps
+Not working-
+ollama serve
+pkill ollama - im not sure which one of the 2
+if ollama serve and pkill do not work effectively then use
+to start
+sudo systemctl start ollama
+oopen another terminal and run ollama list if required and then run ollama run mistral
+to end
+sudo systemctl stop ollama
+to check if ollama is still running or not:
+systemctl status ollama
+to run Adk
+adk web &
+
+idk what this does pgrep -a ollama
+=======Start and run the code========
+To activate env:
+source agents_bin/bin/activate
+TO run adk:
+adk web &

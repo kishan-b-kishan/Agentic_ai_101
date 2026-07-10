@@ -1,0 +1,7 @@
+google-adk[database]==0.3.0
+autogen-ext[ollama]>=0.4.9.2
+python-dotenv>=1.0.1
+requests>=2.32.3
+litellm>=1.66.3
+deprecated
+yfinance
